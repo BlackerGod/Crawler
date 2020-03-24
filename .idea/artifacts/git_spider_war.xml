@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="git_spider:war">
+    <output-path>$PROJECT_DIR$/git_spider/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>git_spider</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Gitcrawler.war">
+      <element id="artifact" artifact-name="git_spider:war exploded" />
+    </root>
+  </artifact>
+</component>
