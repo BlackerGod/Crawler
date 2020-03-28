@@ -100,8 +100,8 @@ public class Crawler {
     * 调用Github的API获取指定项目仓库的信息；
     * */
     public String getRepoInfo(String respoName) throws IOException {
-        String username = "BlackerGod";
-        String password = "Zmq19980902....";
+        String username = "";
+        String password = "";
         //身份认证,把用户名密码加密后，得到一个字符串，把这个字符串放在HTTP header里面
         String credential = Credentials.basic(username,password);
 
